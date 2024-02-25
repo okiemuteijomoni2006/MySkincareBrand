@@ -1,0 +1,45 @@
+
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bodytype {
+    background-image: url("product1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+height: 100vh;
+}
+#title {
+    text-align: center;
+    color:rgb(1, 24, 17) ;
+    font-size: 50px;
+}
+ 
+.time{ min-height: 1px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+   
+
+}
+.countdown{ display:flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.coming__soon{ text-align: center;
+    font-size: 150px; font-weight: bold;
+    color: rgb(17, 57, 57);
+
+}
+#days, #hours, #minutes, #seconds{
+    font-style: italic;
+    color: rgb(1, 15, 11);
+    font-size: 50px;
+    
+}
+
+
